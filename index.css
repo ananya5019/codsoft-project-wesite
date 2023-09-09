@@ -1,0 +1,137 @@
+.banner
+{
+    color: #fff;
+}
+.banner1
+{  
+    height: 400px;
+    opacity: .7;
+    background: #000;
+    background: -moz-linear-gradient(45deg, #000 0%, #0d1128 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #000), color-stop(100%, #0d1128));
+    background: -webkit-linear-gradient(45deg, #000 0%, #0d1128 100%);
+    background: -o-linear-gradient(45deg, #000 0%, #0d1128 100%);
+    background: -ms-linear-gradient(45deg, #000 0%, #0d1128 100%);
+    background: linear-gradient(45deg, #000 0%, #0d1128 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#0d1128', GradientType=1 );
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    padding: 100px;
+    padding: 100px 80px 0 80px;    
+}
+.banner-heading
+{
+    
+    font-weight: 500;
+}
+.banner-paragraph
+{
+    font-size: 15px;
+}
+.subscribe
+{
+    text-align: center;
+    background: rgb(18, 18, 43);
+    color: #fff;
+    padding: 20px 0 20px 0;
+}
+ input[type="submit"]
+ {
+     background: orangered;
+     color: #fff;
+     border-color: orangered;
+ }
+.courses
+{
+    padding: 0 150px 0 150px;
+}
+.course1
+{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    flex-direction: column;
+    padding: 10px 10px 50px 10px;
+    
+
+}
+.course-logo
+{
+    width: 90px;
+    height: 100px;
+}
+h5
+{
+    font-weight: 500;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+ 
+  .facility-row{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+ 
+  .facility-row img{
+    width: 300px;
+    border-radius: 10px;
+  }
+  .facility-row p{
+    padding: 0;
+  }
+  .facility-row h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+ 
+
+ /*---------contact---*/
+
+ .contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(133, 240, 142, 0.7),rgba(235, 216, 47, 0.7));
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+  }
+  .contact h1{
+    color: #0c0c0c;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+ }
+ .button:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+ }
+ .icon .fa{
+    color: red;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+  }
+ 
